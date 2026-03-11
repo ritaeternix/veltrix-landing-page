@@ -2,14 +2,6 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, MessageSquare } from "lucide-react";
-import AnimatedCounter from "./AnimatedCounter";
-
-const stats = [
-  { value: 200, suffix: "M+", label: "Data Points Analyzed" },
-  { value: 150, suffix: "M+", label: "Creator Profiles" },
-  { value: 400, suffix: "M+", label: "Videos Tracked" },
-  { value: 50, suffix: "+", label: "Brands Consulted" },
-];
 
 export default function Hero() {
   return (
@@ -82,27 +74,11 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-sm text-slate-dark mb-20"
+          className="text-sm text-slate-dark"
         >
           Free initial consultation · No commitment required
         </motion.p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-3xl mx-auto"
-        >
-          {stats.map((stat, i) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-1">
-                <AnimatedCounter target={stat.value} delay={i * 0.2} />
-                <span className="gradient-text">{stat.suffix}</span>
-              </div>
-              <div className="text-sm text-slate">{stat.label}</div>
-            </div>
-          ))}
-        </motion.div>
       </div>
     </section>
   );
