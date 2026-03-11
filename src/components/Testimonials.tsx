@@ -8,21 +8,21 @@ const testimonials = [
     name: "Natthapong K.",
     role: "E-Commerce Director, BrandNova",
     quote:
-      "Veltrix helped us increase TikTok Shop revenue by 340% in just 3 months. The AI insights are incredibly accurate and actionable.",
+      "Veltrix's consulting team helped us increase TikTok Shop revenue by 340% in just 3 months. Their AI-driven market insights were invaluable to our strategy.",
     rating: 5,
   },
   {
     name: "Sarah Chen",
     role: "Head of Growth, TrendSetter Co.",
     quote:
-      "The competitor tracking and creator intelligence features are game-changers. We found top-performing creators 10x faster than before.",
+      "The competitive intelligence and creator strategy they provided was a game-changer. We found top-performing creators 10x faster and our ROAS improved dramatically.",
     rating: 5,
   },
   {
     name: "Marcus Rodriguez",
     role: "Founder, DropShip Empire",
     quote:
-      "I've tried every analytics tool out there. Veltrix is the only one that actually tells me what to do next. The AI recommendations are spot on.",
+      "Working with Veltrix feels like having a data science team on call. Their AI recommendations and ongoing advisory have been instrumental in scaling our business.",
     rating: 5,
   },
 ];
@@ -39,11 +39,11 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Loved by <span className="gradient-text">Sellers Worldwide</span>
+            What Our <span className="gradient-text">Clients Say</span>
           </h2>
           <p className="text-lg text-slate max-w-xl mx-auto">
-            See why thousands of TikTok Shop sellers trust Veltrix to grow their
-            business.
+            Hear from brands and sellers who have transformed their TikTok Shop
+            business with our consulting.
           </p>
         </motion.div>
 

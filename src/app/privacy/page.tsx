@@ -159,7 +159,7 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 To process your account registration and manage your
-                subscription
+                consulting engagement
               </li>
               <li>
                 To access and analyze your TikTok Shop data as authorized by you
@@ -362,7 +362,7 @@ export default function PrivacyPolicy() {
             <ul>
               <li>
                 <strong>Account Information:</strong> Retained for the duration
-                of your active account, plus 2 years after account termination
+                of your active engagement, plus 2 years after engagement termination
                 for legal and audit purposes
               </li>
               <li>
@@ -454,7 +454,7 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <strong>Contract:</strong> When processing is necessary to
-                provide the Service you have subscribed to
+                provide the Service under your consulting engagement
               </li>
               <li>
                 <strong>Legitimate Interest:</strong> For security monitoring,

@@ -6,29 +6,33 @@ import { Brain, MessageSquare, FileText, BellRing } from "lucide-react";
 const capabilities = [
   {
     icon: Brain,
-    title: "Predictive Analytics",
-    description: "Forecast trends 7–30 days ahead with AI models trained on billions of data points.",
+    title: "AI-First Approach",
+    description:
+      "Our strategies are powered by advanced AI models trained on billions of data points — not intuition alone.",
   },
   {
     icon: MessageSquare,
-    title: "Natural Language Queries",
-    description: "Ask questions in plain language. AI responds with data-backed answers instantly.",
+    title: "Dedicated Advisory Team",
+    description:
+      "Work directly with experienced e-commerce strategists who understand TikTok Shop inside and out.",
   },
   {
     icon: FileText,
-    title: "Auto-Generated Reports",
-    description: "Weekly performance reports generated automatically, delivered to your inbox.",
+    title: "Custom Reports & Insights",
+    description:
+      "Receive tailored reports with actionable recommendations specific to your brand, category, and goals.",
   },
   {
     icon: BellRing,
-    title: "Smart Alerts",
-    description: "Get notified when new opportunities or threats emerge in your market.",
+    title: "Proactive Market Alerts",
+    description:
+      "Stay ahead with real-time notifications when new opportunities or competitive threats emerge in your market.",
   },
 ];
 
 export default function AISection() {
   return (
-    <section className="relative py-24 md:py-32 overflow-hidden">
+    <section id="why-us" className="relative py-24 md:py-32 overflow-hidden">
       <div className="absolute inset-0 mesh-gradient opacity-40" />
 
       <div className="relative max-w-7xl mx-auto px-6">
@@ -41,16 +45,17 @@ export default function AISection() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent/30 bg-accent/5 mb-6">
               <Brain className="w-3.5 h-3.5 text-accent" />
-              <span className="text-sm text-accent">AI-First Platform</span>
+              <span className="text-sm text-accent">Why Veltrix</span>
             </div>
 
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Built with <span className="gradient-text">AI at Its Core</span>
+              Data-Driven Consulting,{" "}
+              <span className="gradient-text">Powered by AI</span>
             </h2>
             <p className="text-lg text-slate mb-10">
-              Unlike traditional analytics tools, Veltrix uses advanced machine
-              learning to not just show you data — but tell you what to do with
-              it.
+              Unlike traditional agencies, Veltrix combines deep e-commerce
+              expertise with proprietary AI technology to deliver insights and
+              strategies that drive measurable results.
             </p>
 
             <div className="space-y-6">
@@ -82,7 +87,6 @@ export default function AISection() {
             </div>
           </motion.div>
 
-          {/* AI Visualization */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -92,13 +96,11 @@ export default function AISection() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-accent/10 rounded-3xl blur-3xl" />
             <div className="relative glass-card rounded-2xl p-8 md:p-10">
-              {/* Neural network visual */}
               <svg
                 viewBox="0 0 400 400"
                 className="w-full h-auto opacity-80"
                 fill="none"
               >
-                {/* Connection lines */}
                 {[
                   [80, 80, 200, 140],
                   [80, 200, 200, 140],
@@ -131,7 +133,6 @@ export default function AISection() {
                   </linearGradient>
                 </defs>
 
-                {/* Input layer */}
                 {[80, 200, 320].map((y, i) => (
                   <motion.circle
                     key={`in-${i}`}
@@ -148,7 +149,6 @@ export default function AISection() {
                   />
                 ))}
 
-                {/* Hidden layer */}
                 {[140, 260].map((y, i) => (
                   <motion.circle
                     key={`hid-${i}`}
@@ -165,7 +165,6 @@ export default function AISection() {
                   />
                 ))}
 
-                {/* Output layer */}
                 {[160, 240].map((y, i) => (
                   <motion.circle
                     key={`out-${i}`}
@@ -182,15 +181,14 @@ export default function AISection() {
                   />
                 ))}
 
-                {/* Labels */}
                 <text x={80} y={370} textAnchor="middle" fill="#94A3B8" fontSize="11">
-                  Data Input
+                  Your Data
                 </text>
                 <text x={200} y={370} textAnchor="middle" fill="#94A3B8" fontSize="11">
-                  AI Processing
+                  AI Analysis
                 </text>
                 <text x={320} y={370} textAnchor="middle" fill="#94A3B8" fontSize="11">
-                  Insights
+                  Strategy
                 </text>
               </svg>
 
@@ -198,11 +196,11 @@ export default function AISection() {
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                   <span className="text-xs text-emerald-400 font-medium">
-                    AI Model Active
+                    AI Engine Active
                   </span>
                 </div>
                 <p className="text-sm text-slate">
-                  Processing 2.4M data points/sec · Model accuracy: 94.7%
+                  Analyzing 2.4M data points/sec · Model accuracy: 94.7%
                 </p>
               </div>
             </div>

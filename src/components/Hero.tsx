@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight, MessageSquare } from "lucide-react";
 import AnimatedCounter from "./AnimatedCounter";
 
 const stats = [
-  { value: 200, suffix: "M+", label: "Products Tracked" },
+  { value: 200, suffix: "M+", label: "Data Points Analyzed" },
   { value: 150, suffix: "M+", label: "Creator Profiles" },
-  { value: 400, suffix: "M+", label: "Videos Analyzed" },
-  { value: 1000, suffix: "+", label: "Days Historical Data" },
+  { value: 400, suffix: "M+", label: "Videos Tracked" },
+  { value: 50, suffix: "+", label: "Brands Consulted" },
 ];
 
 export default function Hero() {
@@ -28,7 +28,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 mb-8">
             <div className="w-2 h-2 rounded-full bg-cyan animate-pulse" />
-            <span className="text-sm text-primary-light">Powered by Advanced AI</span>
+            <span className="text-sm text-primary-light">AI-Driven E-Commerce Consulting</span>
           </div>
         </motion.div>
 
@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight tracking-tight mb-6"
         >
-          <span className="text-white">AI-Powered</span>
+          <span className="text-white">Strategic</span>
           <br />
           <span className="gradient-text">E-Commerce Intelligence</span>
           <br />
@@ -51,9 +51,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="max-w-2xl mx-auto text-lg md:text-xl text-slate mb-10"
         >
-          Unlock hidden opportunities with real-time analytics, AI-driven
-          insights, and 500M+ data points across products, creators, and
-          content.
+          We help brands and sellers unlock growth on TikTok Shop with
+          AI-powered data analytics, market research, and expert consulting
+          tailored to your business.
         </motion.p>
 
         <motion.div
@@ -66,15 +66,15 @@ export default function Hero() {
             href="#cta"
             className="glow-button flex items-center gap-2 text-white font-semibold px-8 py-3.5 rounded-xl text-lg"
           >
-            Start Free Trial
+            Book a Consultation
             <ArrowRight className="w-5 h-5" />
           </a>
           <a
-            href="#dashboard"
+            href="#services"
             className="flex items-center gap-2 text-slate hover:text-white transition-colors px-6 py-3.5 rounded-xl border border-white/10 hover:border-white/20"
           >
-            <Play className="w-5 h-5" />
-            Watch Demo
+            <MessageSquare className="w-5 h-5" />
+            Explore Our Services
           </a>
         </motion.div>
 
@@ -84,7 +84,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-sm text-slate-dark mb-20"
         >
-          No credit card required · Free 7-day trial
+          Free initial consultation · No commitment required
         </motion.p>
 
         <motion.div

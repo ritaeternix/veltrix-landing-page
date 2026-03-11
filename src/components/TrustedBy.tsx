@@ -21,7 +21,7 @@ export default function TrustedBy() {
           viewport={{ once: true }}
           className="text-center text-sm text-slate-dark mb-10 uppercase tracking-widest"
         >
-          Trusted by 10,000+ brands and sellers worldwide
+          Trusted by leading brands and agencies
         </motion.p>
 
         <motion.div

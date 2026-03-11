@@ -1,29 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Link, BarChart3, Rocket } from "lucide-react";
+import { MessageSquare, BarChart3, Rocket } from "lucide-react";
 
 const steps = [
   {
-    icon: Link,
+    icon: MessageSquare,
     number: "01",
-    title: "Connect",
+    title: "Consult",
     description:
-      "Link your TikTok Shop account in under 30 seconds. Our secure integration ensures your data stays protected.",
+      "We start with a free consultation to understand your business goals, challenges, and TikTok Shop strategy.",
   },
   {
     icon: BarChart3,
     number: "02",
     title: "Analyze",
     description:
-      "AI automatically analyzes market trends, competitor strategies, and opportunities across 500M+ data points.",
+      "Our AI platform analyzes your market, competitors, and opportunities across 500M+ data points to build a custom strategy.",
   },
   {
     icon: Rocket,
     number: "03",
-    title: "Grow",
+    title: "Execute & Grow",
     description:
-      "Act on actionable insights to boost sales, optimize content, and scale your TikTok Shop business.",
+      "We deliver actionable insights and ongoing advisory to help you execute, optimize, and scale your TikTok Shop business.",
   },
 ];
 
@@ -41,10 +41,10 @@ export default function HowItWorks() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Get Started in <span className="gradient-text">3 Simple Steps</span>
+            How We <span className="gradient-text">Work With You</span>
           </h2>
           <p className="text-lg text-slate max-w-xl mx-auto">
-            From sign-up to insights in minutes — not days.
+            A proven consulting process — from strategy to results.
           </p>
         </motion.div>
 

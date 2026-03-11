@@ -13,39 +13,39 @@ import {
 const features = [
   {
     icon: TrendingUp,
-    title: "Trending Discovery",
+    title: "Market & Trend Research",
     description:
-      "Discover trending products before your competitors with AI prediction models analyzing real-time data across millions of listings.",
+      "We identify emerging trends and high-potential products before your competitors, using AI models that analyze millions of data points in real time.",
   },
   {
     icon: Users,
-    title: "Creator Intelligence",
+    title: "Creator & Influencer Strategy",
     description:
-      "Find the perfect influencers for your brand. Analyze engagement rates, audience demographics, and ROI potential at scale.",
+      "Our team finds and evaluates the best-fit influencers for your brand — analyzing engagement, audience fit, and ROI potential to maximize your partnerships.",
   },
   {
     icon: PlayCircle,
-    title: "Video & Ad Analytics",
+    title: "Content & Ad Consulting",
     description:
-      "Understand what makes content go viral. AI-powered analysis of top-performing videos reveals winning patterns and strategies.",
+      "We analyze top-performing content patterns and help you craft winning video and ad strategies backed by data, not guesswork.",
   },
   {
     icon: Target,
-    title: "Competitor Tracking",
+    title: "Competitive Intelligence",
     description:
-      "Monitor competitors in real-time. Track pricing strategies, product launches, market positioning, and growth trajectories.",
+      "Gain a strategic edge with in-depth competitor analysis — from pricing strategies and product positioning to growth trajectories and market share.",
   },
   {
     icon: Radio,
-    title: "Livestream Insights",
+    title: "Livestream Optimization",
     description:
-      "Optimize livestream performance with data on peak hours, conversion rates, viewer engagement, and revenue analytics.",
+      "We provide actionable insights on livestream scheduling, engagement tactics, and conversion optimization based on extensive performance data.",
   },
   {
     icon: Sparkles,
-    title: "AI Recommendations",
+    title: "AI-Powered Growth Advisory",
     description:
-      "Receive personalized AI-driven recommendations on product selection, pricing optimization, and content strategy.",
+      "Receive personalized, AI-driven strategic recommendations on product selection, pricing, market entry, and scaling your TikTok Shop business.",
   },
 ];
 
@@ -63,7 +63,7 @@ const cardVariants = {
 
 export default function Features() {
   return (
-    <section id="features" className="relative py-24 md:py-32">
+    <section id="services" className="relative py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -73,12 +73,11 @@ export default function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Everything You Need to{" "}
-            <span className="gradient-text">Win on TikTok</span>
+            Our <span className="gradient-text">Consulting Services</span>
           </h2>
           <p className="text-lg text-slate max-w-2xl mx-auto">
-            Six powerful tools powered by AI to give you an unfair advantage in
-            the TikTok Shop ecosystem.
+            Expert-led, AI-powered consulting to help you dominate the TikTok
+            Shop ecosystem with data-driven strategies.
           </p>
         </motion.div>
 

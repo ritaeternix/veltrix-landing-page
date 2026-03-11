@@ -58,9 +58,10 @@ export default function TermsOfService() {
 
           <Section title="2. Description of Service">
             <p>
-              Veltrix is an AI-powered e-commerce analytics platform that
-              provides data-driven insights for TikTok Shop sellers, brands,
-              creators, and affiliates. The Service includes:
+              Veltrix is an AI-powered e-commerce consulting firm that
+              provides data-driven insights and strategic advisory for TikTok
+              Shop sellers, brands, creators, and affiliates. Our services
+              include:
             </p>
             <ul>
               <li>
@@ -158,35 +159,33 @@ export default function TermsOfService() {
             </ul>
           </Section>
 
-          <Section title="5. Subscription and Payments">
-            <h4>5.1 Plans and Pricing</h4>
+          <Section title="5. Consulting Engagement and Fees">
+            <h4>5.1 Service Agreements</h4>
             <p>
-              The Service is offered through various subscription plans as
-              described on our pricing page. We reserve the right to modify
-              pricing with 30 days&apos; advance notice. Price changes will not
-              affect your current billing cycle.
+              Our consulting services are provided under individual service
+              agreements or statements of work. Each engagement will outline the
+              scope, deliverables, timeline, and fees specific to your project.
             </p>
 
-            <h4>5.2 Free Trial</h4>
+            <h4>5.2 Fees and Payment</h4>
             <p>
-              We may offer a free trial period. At the end of the trial, your
-              account will be converted to a paid subscription unless you cancel
-              before the trial expires. No charges will be applied during the
-              trial period.
+              Consulting fees are determined based on the scope and complexity of
+              each engagement. Payment terms will be specified in your service
+              agreement. All fees are due as outlined in the agreement.
             </p>
 
-            <h4>5.3 Billing</h4>
+            <h4>5.3 Free Consultation</h4>
             <p>
-              Paid subscriptions are billed in advance on a monthly or annual
-              basis. All payments are non-refundable except as required by
-              applicable law or as expressly stated in these Terms.
+              We offer a complimentary initial consultation to understand your
+              business needs and determine how we can best support your growth.
+              This initial consultation carries no obligation.
             </p>
 
-            <h4>5.4 Cancellation</h4>
+            <h4>5.4 Termination</h4>
             <p>
-              You may cancel your subscription at any time. Upon cancellation,
-              you will retain access to the Service until the end of your current
-              billing period.
+              Either party may terminate a consulting engagement as specified in
+              the service agreement. Upon termination, you will be responsible
+              for fees incurred up to the termination date.
             </p>
           </Section>
 
@@ -298,8 +297,8 @@ export default function TermsOfService() {
             </p>
             <p>
               OUR TOTAL LIABILITY FOR ANY CLAIMS ARISING UNDER THESE TERMS SHALL
-              NOT EXCEED THE AMOUNT YOU PAID TO US IN THE 12 MONTHS PRECEDING
-              THE CLAIM.
+              NOT EXCEED THE TOTAL FEES PAID BY YOU TO US UNDER THE APPLICABLE
+              SERVICE AGREEMENT IN THE 12 MONTHS PRECEDING THE CLAIM.
             </p>
           </Section>
 
@@ -341,8 +340,9 @@ export default function TermsOfService() {
               Terms, is harmful to other users, or is otherwise objectionable.
             </p>
             <p>
-              Upon termination, your right to use the Service will cease
-              immediately. We will delete or anonymize your data in accordance
+              Upon termination, your access to consulting deliverables and
+              ongoing advisory services will cease as specified in your service
+              agreement. We will delete or anonymize your data in accordance
               with our <a href="/privacy">Privacy Policy</a>, except where
               retention is required by law.
             </p>

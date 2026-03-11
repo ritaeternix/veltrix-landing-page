@@ -19,27 +19,29 @@ export default function CTA() {
           transition={{ duration: 0.7 }}
         >
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Ready to Dominate
+            Ready to Scale Your
             <br />
-            <span className="gradient-text">TikTok Shop?</span>
+            <span className="gradient-text">TikTok Shop Business?</span>
           </h2>
           <p className="text-lg md:text-xl text-slate mb-10">
-            Join 10,000+ sellers using Veltrix to unlock AI-powered insights.
-            Start free — no credit card required.
+            Schedule a free consultation with our experts. We&apos;ll analyze
+            your market opportunity and build a data-driven growth strategy
+            tailored to your business.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#"
+              href="mailto:hello@veltrix.io"
               className="glow-button flex items-center gap-2 text-white font-semibold px-10 py-4 rounded-xl text-lg"
             >
-              Get Started Free
+              Book a Free Consultation
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>
 
           <p className="text-sm text-slate-dark mt-6">
-            Free 7-day trial · No credit card · Cancel anytime
+            Free initial consultation · No commitment · Tailored to your
+            business
           </p>
         </motion.div>
       </div>

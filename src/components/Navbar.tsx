@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { Menu, X, Zap } from "lucide-react";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
+  { label: "Services", href: "#services" },
   { label: "How It Works", href: "#how-it-works" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Why Us", href: "#why-us" },
   { label: "Testimonials", href: "#testimonials" },
 ];
 
@@ -54,16 +54,10 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#pricing"
-            className="text-sm text-slate hover:text-white transition-colors px-4 py-2"
-          >
-            Log In
-          </a>
-          <a
             href="#cta"
             className="glow-button text-sm font-medium text-white px-5 py-2.5 rounded-lg"
           >
-            Start Free Trial
+            Book a Consultation
           </a>
         </div>
 
@@ -95,7 +89,7 @@ export default function Navbar() {
             href="#cta"
             className="glow-button block text-center text-sm font-medium text-white px-5 py-2.5 rounded-lg mt-3"
           >
-            Start Free Trial
+            Book a Consultation
           </a>
         </motion.div>
       )}
