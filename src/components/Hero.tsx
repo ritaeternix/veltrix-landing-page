@@ -1,0 +1,109 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { ArrowRight, Play } from "lucide-react";
+import AnimatedCounter from "./AnimatedCounter";
+
+const stats = [
+  { value: 200, suffix: "M+", label: "Products Tracked" },
+  { value: 150, suffix: "M+", label: "Creator Profiles" },
+  { value: 400, suffix: "M+", label: "Videos Analyzed" },
+  { value: 1000, suffix: "+", label: "Days Historical Data" },
+];
+
+export default function Hero() {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 mesh-gradient" />
+      <div className="absolute inset-0 grid-pattern animate-grid" />
+
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[128px] animate-pulse-glow" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[128px] animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-24 pb-20 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 mb-8">
+            <div className="w-2 h-2 rounded-full bg-cyan animate-pulse" />
+            <span className="text-sm text-primary-light">Powered by Advanced AI</span>
+          </div>
+        </motion.div>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.15 }}
+          className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight tracking-tight mb-6"
+        >
+          <span className="text-white">AI-Powered</span>
+          <br />
+          <span className="gradient-text">E-Commerce Intelligence</span>
+          <br />
+          <span className="text-white">for TikTok Shop</span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="max-w-2xl mx-auto text-lg md:text-xl text-slate mb-10"
+        >
+          Unlock hidden opportunities with real-time analytics, AI-driven
+          insights, and 500M+ data points across products, creators, and
+          content.
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.45 }}
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6"
+        >
+          <a
+            href="#cta"
+            className="glow-button flex items-center gap-2 text-white font-semibold px-8 py-3.5 rounded-xl text-lg"
+          >
+            Start Free Trial
+            <ArrowRight className="w-5 h-5" />
+          </a>
+          <a
+            href="#dashboard"
+            className="flex items-center gap-2 text-slate hover:text-white transition-colors px-6 py-3.5 rounded-xl border border-white/10 hover:border-white/20"
+          >
+            <Play className="w-5 h-5" />
+            Watch Demo
+          </a>
+        </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="text-sm text-slate-dark mb-20"
+        >
+          No credit card required · Free 7-day trial
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
+          className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-3xl mx-auto"
+        >
+          {stats.map((stat, i) => (
+            <div key={stat.label} className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-white mb-1">
+                <AnimatedCounter target={stat.value} delay={i * 0.2} />
+                <span className="gradient-text">{stat.suffix}</span>
+              </div>
+              <div className="text-sm text-slate">{stat.label}</div>
+            </div>
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
+}
